@@ -8,34 +8,35 @@ Repositório com resumos provenientes do cursi de versionamento de código com G
 
 ## *Comandos basicos do bash*
 
-### 
+### Criar diretório
 ```
 mkdir diretório
 ```
 * Possibilita criar um novo diretorio.
 
-### 
+### Navegar pelos diretórios
 ```
 cd diretorio
 cd ..
 ```
 * Possibilita navegar por diretorios entrando neles como no primeiro caso ou voltando para o anterior usando os dois pontos.
 
-### 
+### Listar conteudos
 ```
-ls
-ls -l
-ls -lah
+ls diretório
+ls -l diretório
+ls -lah diretório
 ```
 * Lista os conteudos dentro do diretorio, no primeiro caso temos a forma mais básica sendo apenas uma sequencia dos nomes;
 * No segundo caso os arquivos e diretórios nos são apresentados na forma de lista com algumas informações importantes como permições do arquivo/diretório, proprietário, grupo, tamanho, data de modificação e nome do arquivo;
 * O terceiro caso é semelhante ao anterior, mas temos duas diferenças, o 'a' mostra arquivos ocultos contido no diretório, e o 'h' mostra o tamanho dos arquivo de forma legivel para humanos.
-### 
+
+### Criar arquivo
 ```
 touch arquivo
 ```
 
-### 
+### Mostrar conteudo dentro de um arquivo
 ```
 cat arquivo
 ```
