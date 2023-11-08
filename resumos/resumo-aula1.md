@@ -47,4 +47,6 @@ O versionamento de código é realizadop com um sistema de controle de versão q
 
 ## 🔎 *Referências e Documentação*📗
 
+
+- [Documentação Git](https://git-scm.com/doc)
 - [Diagrama Markdow](https://support.typora.io/Draw-Diagrams-With-Markdown/)
