@@ -2,9 +2,12 @@
 
 ```bash
 git init
-```
 
+rm -rf .git
+```
 - Faz com que o diretório se torne um repositório git.
+- Caso acabe executando esse comando na pasta errada basta excluir a pasta ".git" dentro do diretório, para isso use o comando "rm".
+
 
 <br>
 
