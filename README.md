@@ -57,6 +57,13 @@ echo "texto" >> arquivo
 ```
 - Os dois comandos funcionam de maneira parecida, ambos criam um arquivo, mas o primeiro sobre escreve todo o conteúdo do arquivo com o texto passado já o segundo adiciona na última linha o texto passado.
 
+### Excluir arquivos e diretórios
+```bash
+rm -f arquivo
+rm -rf diretório
+```
+- Os dois comandos podem ser usado para remover arquivos ou diretórios, mas para que funcione é preciso utilizar a opção certa no caso "-f" para arquivos e "-rf" para diretórios
+
 ### Mostrar conteudo dentro de um arquivo
 ```bash
 cat arquivo
