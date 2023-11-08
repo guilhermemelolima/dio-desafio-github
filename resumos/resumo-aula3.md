@@ -42,4 +42,4 @@ git clone url --branch nome-branch --single-branch
 
 <br>
 
-### [Aula 1](resumo-aula2.md) | [Aula 3](resumo-aula4.md)
+### [Aula 2](resumo-aula2.md) | [Aula 4](resumo-aula4.md)
