@@ -2,7 +2,7 @@
 
 # DIO | Resumos Git e GitHub
 
-Repositório com resumos provenientes do cursi de versionamento de código com Git e Github
+Repositório com resumos provenientes do curso de versionamento de código com Git e Github
 
 [***Cerificado***](https://www.dio.me/certificate/5B414621/share)
 
@@ -13,44 +13,63 @@ Repositório com resumos provenientes do cursi de versionamento de código com G
 ### Criar diretório
 ```
 mkdir diretório
+
 mkdir -p diretório-1/diretório-2
 ```
-* O primeiro comando possibilita criar um novo diretorio, o segundo permite que sejá criado o diretório-1 e dentro tenha o subdiretório diretório-2.
+* O primeiro comando possibilita criar um diretório, o segundo comando permite que seja criado o diretório-1 e dentro tenha o subdiretório diretório-2.
 
 ### Navegar pelos diretórios
 ```
-cd nome-diretorio
+cd nome-diretório
+
 cd ..
+cd ../nome-diretório
+
+cd ~/
+cd ~/nome-do diretório
+
+cd /
 ```
-* Possibilita navegar por diretorios entrando neles como no primeiro caso ou voltando para o anterior usando os dois pontos.
+* Este comando possibilita navegar por diretórios entrando neles como no primeiro caso ou voltando para o anterior usando os dois pontos. O '~' é uma espécie de abreviação para a home do usuário, e colocando apenas o '/' somos direcionados para a raiz do sistema.
 
 ### Listar conteudos
 ```
 ls diretório
+
 ls -l diretório
+
 ls -lah diretório
 ```
-* Lista os conteudos dentro do diretorio, no primeiro caso temos a forma mais básica sendo apenas uma sequencia dos nomes;
-* No segundo caso os arquivos e diretórios nos são apresentados na forma de lista com algumas informações importantes como permições do arquivo/diretório, proprietário, grupo, tamanho, data de modificação e nome do arquivo;
-* O terceiro caso é semelhante ao anterior, mas temos duas diferenças, o 'a' mostra arquivos ocultos contido no diretório, e o 'h' mostra o tamanho dos arquivo de forma legivel para humanos.
+* Lista os conteúdos dentro do diretório, no primeiro caso temos o retorno mais básico sendo apenas uma sequência dos nomes;
+* No segundo caso os arquivos e diretórios nos são apresentados na forma de lista com algumas informações importantes como permissões do arquivo/diretório, proprietário, grupo, tamanho, data de modificação e nome do arquivo;
+* O terceiro caso é semelhante ao anterior, mas temos duas diferenças, o 'a' mostra arquivos ocultos contidos no diretório, e o 'h' mostra o tamanho dos arquivos de forma legível para humanos.
 
 ### Criar arquivo
 ```
 touch arquivo
 ```
-- Possibilita criar um arquivo de qualquer qu sejá o tipo
+- Possibilita criar um arquivo vazio.
+
+```
+echo "texto" > arquivo
+
+echo "texto" >> arquivo
+```
+- Os dois comandos funcionam de maneira parecida, ambos criam um arquivo, mas o primeiro sobre escreve todo o conteúdo do arquivo com o texto passado já o segundo adiciona na última linha o texto passado.
 
 ### Mostrar conteudo dentro de um arquivo
 ```
 cat arquivo
+
+cat -n
 ```
-- Exibe o conteudo de um arquivo
+- O primeiro comando exibe o conteúdo de um arquivo, no segundo mostra o conteúdo mais o número de linhas do arquivo.
 
 ### Editor de código 
 ```
 nano arquivo
 ```
-* Este comando faz com que o arquivo seja executado dentro de um editor de código simples mas útil para pequenas edições
+* Este comando faz com que o arquivo seja executado dentro de um editor de código simples, mas útil para pequenas edições.
 
 ## 💻 *Resumo das aulas*
 | Aulas | Resumos |
@@ -66,6 +85,7 @@ nano arquivo
 - [Digital Inovation One](https://https://www.dio.me/)
 - [Documentação Git](https://git-scm.com/doc)
 - [Docuemntação GitHub](https://dosc.github.com/)
+- [Comando bash | GNU/Linux](https://guialinux.uniriotec.br/)
 
 ## Links Úteins
 - [Sintaxe Markdown](https://markdownguide.org/basic-syntax/)
