@@ -23,7 +23,7 @@ git config --global user.email "emial@email.com"
 ```bash
 git config init.defaultBranch
 ```
-- Retorna o nome da breanch padrão.
+- Retorna o nome da branch padrão.
 
 <br>
 
@@ -44,3 +44,7 @@ git config --global --list
 
 - [Documentação Git](https://git-scm.com/doc)
 - [Diagrama Markdow](https://support.typora.io/Draw-Diagrams-With-Markdown/)
+
+<br>
+
+### [Aula 1](resumo-aula1.md) | [Aula 3](resumo-aula3.md)

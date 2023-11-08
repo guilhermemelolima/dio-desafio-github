@@ -37,7 +37,7 @@ O versionamento de código é realizadop com um sistema de controle de versão q
 
 <br>
 
-## <img src="../img/git.png" alt="image-git" width="4%" height="auto"> <font size="5em"> Git </font>
+## <font size="5em"> Git </font> <img src="../img/git.png" alt="image-git" width="4%" height="auto"> 
 
 [Git SCM - Source Code management](https://git-scm.com/) é um sistema de controle de versão.
 - Gratuito e Open Source;
@@ -50,3 +50,7 @@ O versionamento de código é realizadop com um sistema de controle de versão q
 
 - [Documentação Git](https://git-scm.com/doc)
 - [Diagrama Markdow](https://support.typora.io/Draw-Diagrams-With-Markdown/)
+
+<br>
+
+### [Voltar](../README.md) | [Aula 2](resumo-aula2.md)
