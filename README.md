@@ -1,4 +1,4 @@
-![Banner Git e Github](https://media.licdn.com/dms/image/C4D12AQGXkZf6DJB9kA/article-cover_image-shrink_600_2000/0/1625492357429?e=2147483647&v=beta&t=Za25mgxxiTJH1l0K34GrCEsktnjfn2p_onibFuL2Z0Y)
+![Banner Git e Github](img/banner-git-github.png)
 
 # DIO | Resumos Git e GitHub
 
@@ -8,15 +8,18 @@ Repositório com resumos provenientes do cursi de versionamento de código com G
 
 ## *Comandos basicos do bash*
 
+- #### TAB -  auto completa o nome de um arquivo ou diretório
+
 ### Criar diretório
 ```
 mkdir diretório
+mkdir -p diretório-1/diretório-2
 ```
-* Possibilita criar um novo diretorio.
+* O primeiro comando possibilita criar um novo diretorio, o segundo permite que sejá criado o diretório-1 e dentro tenha o subdiretório diretório-2.
 
 ### Navegar pelos diretórios
 ```
-cd diretorio
+cd nome-diretorio
 cd ..
 ```
 * Possibilita navegar por diretorios entrando neles como no primeiro caso ou voltando para o anterior usando os dois pontos.
@@ -35,11 +38,13 @@ ls -lah diretório
 ```
 touch arquivo
 ```
+- Possibilita criar um arquivo de qualquer qu sejá o tipo
 
 ### Mostrar conteudo dentro de um arquivo
 ```
 cat arquivo
 ```
+- Exibe o conteudo de um arquivo
 
 ### Editor de código 
 ```
@@ -63,7 +68,7 @@ nano arquivo
 - [Docuemntação GitHub](https://dosc.github.com/)
 
 ## Links Úteins
-[Sintaxe Markdown](https://markdownguide.org/basic-syntax/)
+- [Sintaxe Markdown](https://markdownguide.org/basic-syntax/)
 
 
 
