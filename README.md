@@ -76,7 +76,7 @@ nano arquivo
 | :------ | :------:|
 | Versionamento | [Resumo](resumos/resumo-aula1.md) |
 | Configurando o Git | [Resumo](resumos/resumo-aula2.md) |
-| Criando e Colando Repositórios | [Resumo](resumos/resumo-aula3.md) |
+| Criando e Cloando Repositórios | [Resumo](resumos/resumo-aula3.md) |
 | Gravando alterações no Repositório Local | [Resumo](resumos/resumo-aula4.md) |
 
 
